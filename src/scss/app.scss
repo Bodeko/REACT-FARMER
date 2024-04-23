@@ -1,0 +1,21 @@
+@import 'variables';
+@import 'libs/normalize';
+
+body {
+  background-color: $background;
+}
+
+.wrapper {
+  width: calc(100vw - 100px);
+  height: 100%;
+  background-color: #fff;
+  margin: 50px auto;
+  border-radius: 15px;
+  max-width: 1400px;
+  padding-bottom: 50px;
+
+  .allProductDescription {
+    margin-left: 50px;
+    font-size: 40px;
+  }
+}
